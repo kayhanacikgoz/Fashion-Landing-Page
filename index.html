@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fashion Page</title>
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="style.css">
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <script src="./main.js" defer></script>
+</head>
+<body>
+    <!-- Navigation -->
+    <header class="row container">
+        <a href="#" class="logo">Shop-Black</a>
+        <div class="toggleMenu" onclick="toggleMenu();"></div>
+        <nav class="navigation row">
+            <ul class="row">
+                <li><a href="#">Home</a></li>
+                <li><a href="#trend">Trending</a></li>
+                <li><a href="#category">Category</a></li>
+                <li><a href="#about">About Us</a></li>
+            </ul>
+            <ul class="row">
+                <li class="store row">
+                    <box-icon type='solid' name='shopping-bag'></box-icon>
+                </li>
+                <li><a href="#" class="page-btn active">Login</a></li>
+                <li><a href="#" class="page-btn">Sign Up</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- End Navigation -->
+
+    <!-- Hero Section -->
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1>Focus on yourself</h1>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                        Mollitia dolorem ea quo officiis voluptatum reiciendis 
+                        culpa inventore quia, repellat consequuntur.
+                    </p>
+                    <div class="btns row">
+                        <a href="" class="page-btn">Shop Now</a>
+                        <div class="row">
+                            <box-icon name='play-circle' ></box-icon>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper mySwiper hero-slider">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide row">
+                            <img src="./assets/images/model1.png" alt="">
+                            <a href="#" class="dot style3">
+                                <h5>White Jeans</h5>
+                                <p>$30</p>
+                            </a>
+                        </div>
+                        <div class="swiper-slide row">
+                            <img src="./assets/images/model2.png" alt="">
+                            <a href="#" class="dot style1">
+                                <h5>Brazzers</h5>
+                                <p>$200</p>
+                            </a>
+                        </div>
+                        <div class="swiper-slide row">
+                            <img src="./assets/images/model3.png" alt="">
+                            <a href="#" class="dot style4">
+                                <h5>White Shoes</h5>
+                                <p>$130</p>
+                            </a>
+                        </div>
+                        <div class="swiper-slide row">
+                            <img src="./assets/images/model4.png" alt="">
+                            <a href="#" class="dot style3">
+                                <h5>White Jeans</h5>
+                                <p>$30</p>
+                            </a>
+                        </div>
+                        <div class="swiper-slide row">
+                            <img src="./assets/images/model5.png" alt="">
+                            <a href="#" class="dot style4">
+                                <h5>White Shoes</h5>
+                                <p>$130</p>
+                            </a>
+                        </div>
+                        <div class="swiper-slide row">
+                            <img src="./assets/images/model6.png" alt="">
+                            <a href="#" class="dot style4">
+                                <h5>White Shoes</h5>
+                                <p>$130</p>
+                            </a>
+                        </div>
+                        <div class="swiper-slide row">
+                            <img src="./assets/images/model7.png" alt="">
+                            <a href="#" class="dot style4">
+                                <h5>White Shoes</h5>
+                                <p>$130</p>
+                            </a>
+                        </div>
+                        <div class="swiper-slide row">
+                            <img src="./assets/images/model8.png" alt="">
+                            <a href="#" class="dot style3">
+                                <h5>White Jeans</h5>
+                                <p>$30</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div>
+                  </div>
+            </div>
+        </section>
+    <!-- End Hero Section -->
+
+    <!-- Promo -->
+        <section class="promo container">
+            <div class="heading">
+                <h2>Promo of this month.</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam, cum!</p>
+            </div>
+            <div class="swiper mySwiper promo-slider">
+                <div class="swiper-wrapper">
+                    <a href="#" class="swiper-slide row">
+                        <img src="./assets/images/product_y1.png" alt="">
+                        <div class="price row">
+                            <h5>Purse</h5>
+                            <p>30$ &nbsp; <s>$70</s></p>
+                        </div>
+                    </a>
+                    <a href="#" class="swiper-slide row">
+                        <img src="./assets/images/product_y2.png" alt="">
+                        <div class="price row">
+                            <h5>Purse</h5>
+                            <p>30$ &nbsp; <s>$70</s></p>
+                        </div>
+                    </a>
+                    <a href="#" class="swiper-slide row">
+                        <img src="./assets/images/product_y3.png" alt="">
+                        <div class="price row">
+                            <h5>Purse</h5>
+                            <p>30$ &nbsp; <s>$70</s></p>
+                        </div>
+                    </a>
+                    <a href="#" class="swiper-slide row">
+                        <img src="./assets/images/product_y4.png" alt="">
+                        <div class="price row">
+                            <h5>Purse</h5>
+                            <p>30$ &nbsp; <s>$70</s></p>
+                        </div>
+                    </a>
+                    <a href="#" class="swiper-slide row">
+                        <img src="./assets/images/product_y5.png" alt="">
+                        <div class="price row">
+                            <h5>Purse</h5>
+                            <p>30$ &nbsp; <s>$70</s></p>
+                        </div>
+                    </a>
+                </div>
+                <div class="slider-arrow row">
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+            </div>
+        </section>
+    <!-- End Promo -->
+
+    <!-- Trending -->
+        <section class="trend container">
+            <div class="heading">
+                <h2>Trending outfit of the week.</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit hic illo iusto 
+                    doloremque quis, deserunt asperiores tempora laborum velit! Amet.</p>
+            </div>
+            <div class="swiper mySwiper trend-slider">
+                <div class="swiper-wrapper">
+                    <a href="#" class="swiper-slide row"><img src="./assets/images/model9.png" alt=""></a>
+                    <a href="#" class="swiper-slide row"><img src="./assets/images/model11.png" alt=""></a>
+                    <a href="#" class="swiper-slide row"><img src="./assets/images/model12.png" alt=""></a>
+                    <a href="#" class="swiper-slide row"><img src="./assets/images/model14.png" alt=""></a>
+                    <a href="#" class="swiper-slide row"><img src="./assets/images/model10.png" alt=""></a>
+                    <a href="#" class="swiper-slide row"><img src="./assets/images/model15.png" alt=""></a>
+                </div>
+                <div class="slider-arrow row">
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+            </div>
+        </section>
+    <!-- End Trending -->
+
+    <!-- Category -->
+        <section class="category container" id="category">
+            <div class="heading">
+                <h2>Category Fashion.</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Fuga facere ducimus quis sapiente, porro eum.
+                </p>
+            </div>
+            <div class="category-cards column">
+                <a href="#" class="c-card">
+                    <img src="./assets/images/model_y2.png" alt="">
+                    <div class="c-card-btn row">
+                        <button class="page-btn">All</button>
+                    </div>
+                </a>
+                <a href="#" class="c-card">
+                    <img src="./assets/images/model_y1.png" alt="">
+                    <div class="c-card-btn row">
+                        <button class="page-btn">Shirts</button>
+                    </div>
+                </a>
+                <a href="#" class="c-card">
+                    <img src="./assets/images/model_y3.png" alt="">
+                    <div class="c-card-btn row">
+                        <button class="page-btn">Jeans</button>
+                    </div>
+                </a>
+                <a href="#" class="c-card">
+                    <img src="./assets/images/product_y1.png" alt="">
+                    <div class="c-card-btn row">
+                        <button class="page-btn">Lingers</button>
+                    </div>
+                </a>
+                <a href="#" class="c-card">
+                    <img src="./assets/images/product_y6.png" alt="">
+                    <div class="c-card-btn row">
+                        <button class="page-btn">Shoes</button>
+                    </div>
+                </a>
+                <a href="#" class="c-card">
+                    <img src="./assets/images/product_y5.png" alt="">
+                    <div class="c-card-btn row">
+                        <button class="page-btn">Suits</button>
+                    </div>
+                </a>
+                <a href="#" class="c-card">
+                    <img src="./assets/images/product_y4.png" alt="">
+                    <div class="c-card-btn row">
+                        <button class="page-btn">Caps</button>
+                    </div>
+                </a>
+                <a href="#" class="c-card">
+                    <img src="./assets/images/product_y3.png" alt="">
+                    <div class="c-card-btn row">
+                        <button class="page-btn">Watches</button>
+                    </div>
+                </a>
+                <a href="#" class="c-card">
+                    <img src="./assets/images/product_y2.png" alt="">
+                    <div class="c-card-btn row">
+                        <button class="page-btn">Jackets</button>
+                    </div>
+                </a>
+            </div>
+            <a href="#" class="page-btn row">More categories</a>
+        </section>
+    <!-- End Category -->
+
+    <!-- Brands -->
+        <section class="brands row container">
+            <a href="#" class="b-card"><img src="./assets/images/sponsor1.png" alt=""></a>
+            <a href="#" class="b-card"><img src="./assets/images/sponsor2.png" alt=""></a>
+            <a href="#" class="b-card"><img src="./assets/images/sponsor3.png" alt=""></a>
+            <a href="#" class="b-card"><img src="./assets/images/sponsor4.png" alt=""></a>
+            <a href="#" class="b-card"><img src="./assets/images/sponsor5.png" alt=""></a>
+        </section>
+    <!-- End Brands -->
+
+    <!-- Subscribe -->
+        <section class="subscribe row container">
+            <div class="img row"><img src="./assets/images/model_square3.png" alt=""></div>
+            <div class="subscribe-content row">
+                <div>
+                    <div class="heading">
+                        <h2>Get more discount up to 40%..</h2>
+                        <p>Join our mailing lists.
+                        </p>
+                    </div>
+                    <form action="" class="row">
+                        <input type="email" placeholder="Your email address">
+                        <button class="row">Button</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    <!-- End Subscribe -->
+
+    <!-- Footer -->
+        <footer>
+            <div class="footer row container">
+                <div class="footer-content">
+                    <a href="#" class="logo"></a>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem, reprehenderit.</p>
+                    <h4>Find Us</h4>
+                    <div class="media-links row">
+                        <a href="#" class="row">
+                            Lorem Lorem
+                        </a>
+                        <a href="#" class="row">
+                            Lorem Lorem
+                        </a>
+                        <a href="#" class="row">
+                            Lorem Lorem
+                        </a>
+                    </div>
+                </div>
+                <div>
+                    <h4>Shop</h4>
+                    <ul>
+                        <li><a href="#">Men</a></li>
+                        <li><a href="#">Women</a></li>
+                        <li><a href="#">Accessories</a></li>
+                        <li><a href="#">Trends</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>Information</h4>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Customer service</a></li>
+                        <li><a href="#">Privacy & policy</a></li>
+                        <li><a href="#">Terms & condition</a></li>
+                    </ul>
+                </div>
+            </div>
+            <p class="copy-right">&copy; 2022. All right reserved by Sisu9 Coop.</p>
+        </footer>
+    <!-- End Footer -->
+
+    <script src="https://unpkg.com/boxicons@2.1.2/dist/boxicons.js"></script>
+</body>
+</html>
