@@ -103,3 +103,11 @@ var swiper = new Swiper(".trend-slider", {
         },
     },
 });
+
+/* Loading */
+window.onload = () => {
+    setTimeout(() => {
+        document.querySelector('main').classList.add("display");
+        document.querySelector('.loading_container').classList.add("hidden");
+    },6000);
+}
