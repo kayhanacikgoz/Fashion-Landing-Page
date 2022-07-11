@@ -498,7 +498,6 @@ main.display {
     transform: translate(-50%, -50%);
     width: 60px;
     height: 60px;
-    animation: a4 6s ease-in;
 }
 .loading_container.hidden {
     display: none;
@@ -637,26 +636,7 @@ main.display {
         opacity: 1;
     }
 }
-@keyframes a4 {
-    0% {
-        opacity: 1;
-    }
-    80% {
-        opacity: 1;
-    }
-    85% {
-        opacity: .9;
-    }
-    90% {
-        opacity: .80;
-    }
-    95% {
-        opacity: .70;
-    }
-    100% {
-        opacity: .6;
-    }
-}
+
 /* MEDIA QUERIES */
 @media screen and (min-width: 1300px) {
     .container {
